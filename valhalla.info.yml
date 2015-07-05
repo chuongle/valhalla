@@ -1,0 +1,17 @@
+name: Valhalla
+type: theme
+description: "Drupal 8 Theme using Sass, Singularity, Breakpoint that following SMACSS."
+package: Other
+core: 8.x
+
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+libraries:
+  - valhalla/global-css
+  - valhalla/global-js
+
+region:
+  header:   Header
+  content:  Content
+  footer:   Footer

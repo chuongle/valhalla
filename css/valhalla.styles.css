@@ -1,0 +1,10 @@
+img, media {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
